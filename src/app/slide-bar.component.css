@@ -1,0 +1,8 @@
+div.section-right
+{  
+	margin-right: auto;
+	width: 700px;
+	height: 500px;
+    border: 1px solid blue;
+}
+

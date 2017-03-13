@@ -1,0 +1,30 @@
+div.section-left
+{  
+	margin-left: 0px;
+	width: 930px;
+	height: 550px;
+    border: 0px solid blue;
+}
+div.section-right
+{  
+	margin-right: 0px;
+	width: 780px;
+	height: 550px;
+    border: 0px solid blue;
+}
+div.baniere{
+height:taille_fixe px;
+width:100%;
+}
+ 
+div.baniere_gauche{
+width:50%;
+height:100%;
+float:left;
+}
+ 
+div.baniere_droite{
+width:50%;
+height:100%;
+float:right;
+}

@@ -1,0 +1,38 @@
+div.section-left
+{  
+	margin-left: auto;
+	width: 638px;
+	height: 500px;
+    border: 0px solid blue;
+}
+div.bgLayer{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+#galerie{
+	position:relative;
+	
+	height: 100%;
+
+}
+div.suiv{
+	position: absolute;
+	top:0px;
+	right:0px;
+	
+	background:url(../image/fleches.jpg) left top;
+
+}
+div.prec{
+	position: absolute;
+	top:0px;
+	left:0px;
+	
+	background:url(../image/fleches2.jpg) right top; 
+
+}
+div.suiv:hover{
+	background-position: 52px top;
+
+}
