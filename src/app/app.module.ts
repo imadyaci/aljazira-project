@@ -18,6 +18,8 @@ import { DonateComponent } from './aljazira-header/donate.component';
 import { AljaziraFooterComponent } from './aljazira-footer.component';
 import { SlideBarComponent } from './slide-bar.component';
 import { SlideBarLeftComponent } from './slide-bar-left.component';
+import { ContactComponent } from './contact.component';
+import { PrayerTimesComponent } from './prayer-times.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +44,10 @@ import { SlideBarLeftComponent } from './slide-bar-left.component';
     SlideBarLeftComponent,
 
     SlideBarLeftComponent,
+
+    ContactComponent,
+
+    PrayerTimesComponent,
 
   ],
   imports: [

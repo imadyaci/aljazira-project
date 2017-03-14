@@ -1,20 +1,48 @@
 
-<div class="jazira-header">
+<div class="bs-example">
+  <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+   <div class="container">
+     <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a [routerLink]="[''] ">Home</a></li>
+          <li> <a [routerLink]="['AboutUs']">About Us</a></li>
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Activities <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li> <a [routerLink]="['Quran']">Teaching Quran</a></li>
+              <li class="divider"></li>
+              <li> <a [routerLink]="['prayer-times']">Prayer-Times</a></li>
+              <li class="divider"></li>
+            </ul>
+          </li>
+          <li> <a [routerLink]="['Donate']">Donate</a></li>
+          <li> <a [routerLink]="['contact']">Contact Us</a></li>
+        </ul>
+      <!--  <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Language <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Arabic</a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">French</a></li>
+            </ul>
+          </li>
+        </ul> -->
+      </div><!-- /.navbar-collapse -->
+    </div>
 
-  <div>
-    <ul>
-
-      <li> <a href="/">Home</a></li>
-      <li> <a href="/AboutUs">About Us</a></li>
-      <li> <a href="/Quran">Quran</a></li>
-      <li> <a href="/Activities">Activities</a></li>
-      <li> <a href="/Donate">Donate</a></li>
-      <li  class="logo"> <a [routerLink]="['']"> <img src="../image/logo-jazira.png"/></a>
-	  </li>
-    </ul>
-	
-  </div>
-
- 
+  </nav>
 </div>
-
+<ul style="list-style-type: none"> <li  class="logo"> <a [routerLink]="['']"> <img src="../image/logo-jazira.png"/></a>
+</li></ul>

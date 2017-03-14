@@ -1,33 +1,18 @@
-.logo img{
+ .logo img{
   image-orientation: 6.4deg;
-  width: 100px;
-  height: 80px;
+  width: 55px;
+  height: 50px;
   position: absolute;
   top: 0px;
-  right: 0px;
+   left: 0px;
 }
 
 
-.jazira-header li{
-  float: left;
-}
-.jazira-header li a{
-  display: block;
-  color:black;
-  text-align: center;
-  padding: 25px 16px;
-  font-size: 20px;
 
-}
-.jazira-header ul{
-  background-image: url("../image/header.png");
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  overflow: hidden;
-}
-li a:hover {
-  font-style: italic;
-  font-variant-alternates: normal;
-}
+ .bs-example ul {
+   background-image: url("../image/header.png");
+   width: 100%;
+ }
+
+
 
