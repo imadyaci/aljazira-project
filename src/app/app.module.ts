@@ -20,6 +20,7 @@ import { SlideBarComponent } from './slide-bar.component';
 import { SlideBarLeftComponent } from './slide-bar-left.component';
 import { ContactComponent } from './contact.component';
 import { PrayerTimesComponent } from './prayer-times.component';
+import { GeneralActivitiesComponent } from './general-activities.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,8 @@ import { PrayerTimesComponent } from './prayer-times.component';
     ContactComponent,
 
     PrayerTimesComponent,
+
+    GeneralActivitiesComponent,
 
   ],
   imports: [
