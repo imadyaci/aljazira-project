@@ -1,8 +1,9 @@
-div.section-right
+.section-right
 {  
 	margin-right: auto;
 	width: 700px;
-	height: 500px;
+	height: 100%;
     border: 1px solid blue;
+    margin-top: 0px;
 }
 

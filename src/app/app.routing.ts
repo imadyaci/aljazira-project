@@ -7,6 +7,8 @@ import {DonateComponent} from './aljazira-header/donate.component';
 import {PrayerTimesComponent} from "./prayer-times.component";
 import {ContactComponent} from "./contact.component";
 import {GeneralActivitiesComponent} from "./general-activities.component";
+import {EidComponent} from "./aljazira-header/eid.component";
+
 
 
 
@@ -18,6 +20,7 @@ const APP_ROUTES: Routes= [
   {path: 'Donate',component: DonateComponent},
   {path: 'contact',component: ContactComponent},
   {path: 'prayer-times',component: PrayerTimesComponent},
-  {path: 'general-activities', component: GeneralActivitiesComponent}
+  {path: 'general-activities', component: GeneralActivitiesComponent},
+  {path: 'eid', component: EidComponent}
 ];
 export const routing = RouterModule.forRoot(APP_ROUTES);

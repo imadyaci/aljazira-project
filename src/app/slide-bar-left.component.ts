@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-slide-bar-left',
   templateUrl: './slide-bar-left.component.html',
@@ -7,11 +6,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideBarLeftComponent implements OnInit {
 
-  
-  
-  constructor() { }
 
+  constructor() {
+
+  }
   ngOnInit() {
+
+
   }
 
 }

@@ -21,6 +21,7 @@ import { SlideBarLeftComponent } from './slide-bar-left.component';
 import { ContactComponent } from './contact.component';
 import { PrayerTimesComponent } from './prayer-times.component';
 import { GeneralActivitiesComponent } from './general-activities.component';
+import { EidComponent } from './aljazira-header/eid.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,9 @@ import { GeneralActivitiesComponent } from './general-activities.component';
     PrayerTimesComponent,
 
     GeneralActivitiesComponent,
+
+
+    EidComponent,
 
   ],
   imports: [
