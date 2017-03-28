@@ -11,7 +11,6 @@ import {EidComponent} from "./aljazira-header/eid.component";
 
 
 
-
 const APP_ROUTES: Routes= [
   {path: ''        ,component: HomeComponent},
   {path: 'AboutUs',component: AboutusComponent},
@@ -21,6 +20,8 @@ const APP_ROUTES: Routes= [
   {path: 'contact',component: ContactComponent},
   {path: 'prayer-times',component: PrayerTimesComponent},
   {path: 'general-activities', component: GeneralActivitiesComponent},
-  {path: 'eid', component: EidComponent}
+  {path: 'eid', component: EidComponent},
+  
+
 ];
 export const routing = RouterModule.forRoot(APP_ROUTES);

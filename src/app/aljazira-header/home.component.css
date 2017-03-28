@@ -1,3 +1,20 @@
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+
+#myCarousel{
+  margin-left: 10px;
+  width: 600px;
+  height: 320px;
+}
+
+
+
 div.section-left
 {  
 	margin-left: 0px;
@@ -27,4 +44,23 @@ div.baniere_droite{
 width:50%;
 height:100%;
 float:right;
+}
+table {height: 100%}
+table, td{
+    border: 2px solid yellow;
+    font-size: 25;
+    color: black;
+        border-spacing: 2px;
+        border-collapse: collapse;
+padding: 10px;
+text-align: center;
+    
+}
+th{text-align: center;
+    padding: 20px;
+}
+.prayer_time{align-items: center;}
+table{
+    background-image: url('./image/header.png');
+    background-size:100% 100%;
 }

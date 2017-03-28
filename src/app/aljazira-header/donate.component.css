@@ -1,8 +1,18 @@
-div.section-center
-{  
-	
-	width: 638px;
-	height: 500px;
-    border: 0px solid blue;
-	float: left;
+.baniere_gauche{
+    background-color:burlywood;
+    width: 500px;
+    float: left;
+}
+
+.baniere_droite{
+
+  float: right;
+    margin-right: 10px;
+}
+img.display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    
 }
