@@ -1,8 +1,7 @@
  .logo img{
-  image-orientation: 6.4deg;
-  width: 55px;
-  height: 50px;
-  position: absolute;
+  width: 80px;
+  height: 80px;
+  position: static;
   top: 0px;
    left: 0px;
 }
@@ -10,9 +9,16 @@
 
 
  .bs-example ul {
-   background-image: url("../image/header.png");
-   width: 100%;
- }
+  /* background-image: url("../image/header.png"); */
+   width: auto;
+}
 
-
-
+.panel-heading{
+    margin-top:0px;
+    text-align: center;
+    font-size: 25px;
+}
+.navbar-default{
+    height: 100px;
+    margin-bottom: 0px;
+}

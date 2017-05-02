@@ -1,10 +1,10 @@
 
-table {height: 100%}
+
 table, td {
     border: 2px solid;
     font-size: 25;
     border-spacing: 2px;
-    border-collapse: collapse;
+    
     padding: 10px;
     text-align: center
 }
@@ -21,7 +21,13 @@ th{text-align: center;
     background-color: chartreuse;
     color: blue;
     margin-left: 80px;
-    widows: 100%;
+   
 }
-.hadith{width: 90%}
+.hadith{width: auto}
 p{ padding: 20px 20px 20px 20px;}
+
+.panel-heading{
+    margin-top:0px;
+    text-align: center;
+    font-size: 25px;
+}

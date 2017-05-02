@@ -7,13 +7,13 @@ table, td{
         border-collapse: collapse;
 padding: 10px;
 text-align: center;
-    
+
 }
 th{text-align: center;
     padding: 20px;
 }
 .prayer_time{align-items: center;}
 table{
-    background-image: url('./image/header.png');
+  /*  background-image: url('./image/header.png');*/
     background-size:100% 100%;
 }
