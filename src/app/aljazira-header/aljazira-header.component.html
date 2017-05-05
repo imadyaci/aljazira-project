@@ -1,4 +1,15 @@
 <div class="bs-example">
+  <div class="row">
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <a class="logo" [routerLink]="['']"> <img src="../assets/image/logo-jazira.png"/></a>
+</div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+       <a class="title" [routerLink]="['']"> <img src="../assets/image/header-title/header-title.png"/></a>
+    </div>
+
+  </div>
+  <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
   <nav id="myNavbar" class="navbar navbar-default" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
    <div class="container-fluid">
@@ -14,8 +25,8 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li  class="logo"> <a [routerLink]="['']"> <img src="../assets/image/logo-jazira.png"/></a>
-            </li>
+            <!--<li  class="logo"> <a [routerLink]="['']"> <img src="../assets/image/logo-jazira.png"/></a>
+            </li> -->
           <li><a [routerLink]="[''] ">Home</a></li>
           <li class="dropdown">
             <a href="#" data-toggle="dropdown" class="dropdown-toggle">Activities <b class="caret"></b></a>
@@ -49,5 +60,8 @@
 
   </nav>
 </div>
+</div>
+</div>
+
 <!--<ul style="list-style-type: none"> <li  class="logo"> <a [routerLink]="['']"> <img src="../image/logo-jazira.png"/></a>
 </li></ul>-->
