@@ -11,6 +11,7 @@
  .bs-example ul {
   /* background-image: url("../image/header.png"); */
    width: auto;
+   position: absolute;
 }
 
 .panel-heading{
@@ -22,3 +23,17 @@
     height: 100px;
     margin-bottom: 0px;
 }
+/*MEDIA QUERY*/
+ @media screen and (max-width:999px) { 
+
+ /* ici les instructions pour écrans de moins de 999px de large. */
+    .logo img{ width: 40px; height: 40px; top: 100px; right: 0px;}
+    
+    .bs-example{width: 100%;}
+    .navbar-default{ height: 330px; margin-bottom: 0px;background-color: aqua;}
+    .dropdown-menu{height: 200px; left: 70px;}
+
+
+  }
+
+/*@media screen and (max-width:540px) { /* ici les instructions pour écrans de moins de 540px de large. *//* }*/
