@@ -4,14 +4,16 @@
   position: static;
   top: 0px;
    left: 0px;
+   margin-left: 40px;
 }
 .title img {
   margin-top: 20px;
 }
+@media (min-width: @screen-xs-min) {
+   .title  img {width:20px;}
+ }
 
-
-
- .bs-example ul {
+ .bs-example  {
   /* background-image: url("../image/header.png"); */
    width: auto;
   /* position: absolute; */
@@ -21,22 +23,46 @@
     margin-top:0px;
     text-align: center;
     font-size: 25px;
+
 }
 
 .navbar-default{
     margin-bottom: 0px;
-}
-/*MEDIA QUERY*/
- @media screen and (max-width:999px) {
 
- /* ici les instructions pour écrans de moins de 999px de large. */
+}
+.navbar-default .dropdown .dropdown-toggle .dropdown-menu{
+  background-color:black;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+ .navbar-default .dropdown  .dropdown-menu{
+   background-color:black;
+   background-image: none;
+   background-repeat: no-repeat;
+  }
+.navbar-default{
+  background-color:black;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+ .navbar-default li a {
+     color: orange;
+       margin-left: 30px;
+       font-size: 20px;
+       padding: 20px;
+
+
+ }
+
+/*MEDIA QUERY*/
+  /*@media screen and (max-width:999px) {
+
+ ici les instructions pour écrans de moins de 999px de large.
     .logo img{ width: 40px; height: 40px; top: 100px; right: 0px;}
 
     .bs-example{width: 100%;}
-    .navbar-default{ margin-bottom: 0px;background-color: transparent;}
-    /*.dropdown-menu{height: 200px; left: 70px;}*/
-
-
-  }
+    /*.navbar-default{ margin-bottom: 0px;background-color: transparent;}*/
+    /*.dropdown-menu{height: 200px; left: 70px;}
+  } */
 
 /*@media screen and (max-width:540px) { /* ici les instructions pour écrans de moins de 540px de large. *//* }*/

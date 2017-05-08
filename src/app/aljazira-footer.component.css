@@ -1,5 +1,6 @@
-.panel-footer 
+.panel-footer
 {
     background-color: black;
     color: orange;
+    position: relative;
 }

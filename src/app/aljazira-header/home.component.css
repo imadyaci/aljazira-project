@@ -2,10 +2,18 @@
   .carousel-inner > .item > a > img {
       width: 70%;
       margin: auto;
-     
+
 
   }
 
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
 
 
 #myCarousel{
@@ -17,54 +25,6 @@
 
 
 
-div.section-left
-{
-	margin-left: 0px;
-	width: 930px;
-	height: 550px;
-    border: 0px solid blue;
-}
-div.section-right
-{
-	margin-right: 0px;
-	width: 780px;
-	height: 550px;
-    border: 0px solid blue;
-}
-div.baniere{
-height:taille_fixe px;
-width:100%;
-}
-
-div.baniere_gauche{
-width:50%;
-height:100%;
-float:left;
-}
-
-div.baniere_droite{
-width:50%;
-height:100%;
-float:right;
-}
-table {height: 100%}
-table, td{
-    border: 2px solid yellow;
-    font-size: 25;
-    color: black;
-        border-spacing: 2px;
-        border-collapse: collapse;
-padding: 10px;
-text-align: center;
-
-}
-th{text-align: center;
-    padding: 20px;
-}
-.prayer_time{align-items: center;}
-table{
-    background-size:100% 100%;
-}
 
 .panel-heading{
     margin-top:0px;
@@ -74,12 +34,12 @@ table{
 /*******************/
 @media(max-width: 679px){
 
-  #myCarousel{width: 100%; height: 100%} 
+  #myCarousel{width: 100%; height: 100%}
   .carousel-inner{width: 100%;}
 }
 
 @media(min-width: 680px) and (max-width: 959px){
 
-  #myCarousel{width: 100%; height: 100%} 
+  #myCarousel{width: 100%; height: 100%}
   .carousel-inner{width: 100%;}
 }

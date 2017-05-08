@@ -1,49 +1,49 @@
 <div class="bs-example">
+  <!-- heder logo -->
   <div class="row">
-    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-      <a class="logo" [routerLink]="['']"> <img src="../assets/image/logo-jazira.png"/></a>
-</div>
-    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-       <a class="title" [routerLink]="['']"> <img src="../assets/image/header-title/header-title.png"/></a>
-    </div>
-
-  </div>
-  <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-  <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+         <a class="logo" [routerLink]="['']"> <img src="../assets/image/logo-jazira.png" class="img-responsive"/></a>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6  col-xs-offset-2 col-sm-offset-2 col-md-offset-0 col-lg-offset-0 ">
+         <a class="title" [routerLink]="['']"> <img src="../assets/image/header-title/header-title.png" class="img-responsive"/></a>
+      </div>
+  </div> <!-- heder logo Ends her -->
+<!-- Main menu  -->
+     <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+             <nav id="myNavbar" class="navbar navbar-default" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
-   <div class="container-fluid">
-     <div class="navbar-header">
-     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-        <a class="navbar-brand" href="#"></a>
-       </div>
+             <div class="container-fluid">
+                 <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                     </button>
+                     <a class="navbar-brand" href="#"></a>
+                </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
+             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                   <ul class="nav navbar-nav">
             <!--<li  class="logo"> <a [routerLink]="['']"> <img src="../assets/image/logo-jazira.png"/></a>
             </li> -->
-          <li><a [routerLink]="[''] ">Home</a></li>
-          <li class="dropdown">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Activities <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li> <a [routerLink]="['Quran']">Teaching Quran</a></li>
+                      <li><a [routerLink]="[''] ">Home</a></li>
+                      <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Activities <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li> <a [routerLink]="['Quran']">Teaching Quran</a></li>
            <!--   <li class="divider"></li> -->
             <!--  <li> <a [routerLink]="['prayer-times']">Prayer-Times</a></li>-->
-              <li class="divider"></li>
-			  <li> <a [routerLink]="['general-activities']">General Activities</a></li>
-                <li class="divider"></li>
-             <li> <a [routerLink]="['eid']">EID </a></li>
-
-            </ul>
-          </li>
-          <li> <a [routerLink]="['Donate']">Donate</a></li>
-          <li> <a [routerLink]="['contact']">Contact Us</a></li>
-        </ul>
+                          <li class="divider"></li>
+			                    <li> <a [routerLink]="['general-activities']">General Activities</a></li>
+                          <li class="divider"></li>
+                          <li> <a [routerLink]="['eid']">EID </a></li>
+                      </ul>
+                  </li>
+                  <li> <a [routerLink]="['Donate']">Donate</a></li>
+                  <li> <a [routerLink]="['contact']">Contact Us</a></li>
+               </ul>
 
        <!-- <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
@@ -55,7 +55,7 @@
             </ul>
           </li>
           </ul>-->
-     </div> <!-- /.navbar-collapse -->
+           </div> <!-- /.navbar-collapse -->
     </div>
 
   </nav>
